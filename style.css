@@ -1,11 +1,11 @@
 @font-face{
-    font-family: 'Monserrat',
+    font-family: 'Monserrat';
     src: url('fonts/Monserrat-Regular.otf') format('opentype');
     font-weight:400;
 }
 
 @font-face{
-    font-family: 'Monserrat',
+    font-family: 'Monserrat';
     src: url('fonts/Monserrat-Bold.otf') format('opentype');
     font-weight: 700;
 }
@@ -181,4 +181,12 @@ body, html {
 
 .footer{
     clear: both;
+}
+
+.sidebar li a::after {
+    content: attr(data-count);
+    background: grey;
+    float: right;
+    width: 15px;
+    height:15px;
 }
