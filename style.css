@@ -225,5 +225,42 @@ body, html {
     .main{
         width: 100%;
     }
-    
+    .main .container {
+        overflow: hidden;
+    }
+    .sidebar{
+        width:100%;
+    }
+}
+@media screen and (max-width:740px) {
+    .container{
+        padding:0 20px;
+    }
+    .article {
+        padding-left:0;
+    }
+    .article-img{
+        position: static;
+        margin-bottom: 1rem;
+        display: block;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .topbar {
+        position:absolute;
+    }
+    .topbar nav, .social {
+        float:none;
+        text-align: center;
+    }
+    .topbar nav {
+        margin-bottom: 15px;
+    }
+    .topbar nav a {
+        display: inline-block;
+        margin: 0 20px 5px 20px;
+        white-space: nowrap;
+    }
 }
