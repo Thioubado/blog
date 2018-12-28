@@ -207,6 +207,11 @@ body, html {
    animation-play-state: paused;
     
 }
+
+.footer p {
+    text-align: center;
+}
+
 @keyframes slideDown{
     0%{
         transform:translateY(0);
