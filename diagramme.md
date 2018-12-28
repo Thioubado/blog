@@ -1,3 +1,5 @@
+# graph
+
 ```graphviz
 digraph finite_state_machine {
     rankdir=LR;
